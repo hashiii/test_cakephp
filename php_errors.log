@@ -1,0 +1,182 @@
+[19-Mar-2017 21:36:04 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:36:04 UTC] PHP Stack trace:
+[19-Mar-2017 21:36:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:36:04 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:36:04 UTC] PHP Stack trace:
+[19-Mar-2017 21:36:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:36:04 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:36:04 UTC] PHP Stack trace:
+[19-Mar-2017 21:36:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:36:04 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:40:24 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:40:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:40:24 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:40:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:40:24 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:40:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:40:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:40:24 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:41:16 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/vendor/pear-pear.cakephp.org/CakePHP/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 104
+[19-Mar-2017 21:41:16 UTC] PHP Stack trace:
+[19-Mar-2017 21:41:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:41:16 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/vendor/pear-pear.cakephp.org/CakePHP/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 104
+[19-Mar-2017 21:41:16 UTC] PHP Stack trace:
+[19-Mar-2017 21:41:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:41:16 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 108
+[19-Mar-2017 21:41:16 UTC] PHP Stack trace:
+[19-Mar-2017 21:41:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:41:16 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:108
+[19-Mar-2017 21:43:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/Vendor/pear-pear.cakephp.org/CakePHP/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:43:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/Vendor/pear-pear.cakephp.org/CakePHP/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:43:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:41 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:43:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:41 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:43:58 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:43:58 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:58 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:43:58 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:58 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:43:58 UTC] PHP Stack trace:
+[19-Mar-2017 21:43:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:43:58 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:46:09 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:09 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:09 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:09 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:09 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:46:09 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:09 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:46:24 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:24 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:24 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:46:24 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:24 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:46:45 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:45 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:45 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:46:45 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:45 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:46:45 UTC] PHP Stack trace:
+[19-Mar-2017 21:46:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:46:45 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:50:42 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:50:42 UTC] PHP Stack trace:
+[19-Mar-2017 21:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:50:42 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:50:42 UTC] PHP Stack trace:
+[19-Mar-2017 21:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:50:42 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:50:42 UTC] PHP Stack trace:
+[19-Mar-2017 21:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:50:42 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:51:41 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:51:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:41 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:51:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:41 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:51:41 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:41 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[19-Mar-2017 21:51:47 UTC] PHP Warning:  include(/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:51:47 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:47 UTC] PHP Warning:  include(): Failed opening '/home/ubuntu/workspace/example-app/Vendor/cakephp/cakephp/lib/Cake/bootstrap.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/example-app/webroot/index.php on line 103
+[19-Mar-2017 21:51:47 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:47 UTC] PHP Fatal error:  CakePHP core could not be found. Check the value of CAKE_CORE_INCLUDE_PATH in APP/webroot/index.php. It should point to the directory containing your /cake core directory and your /vendors root directory. in /home/ubuntu/workspace/example-app/webroot/index.php on line 107
+[19-Mar-2017 21:51:47 UTC] PHP Stack trace:
+[19-Mar-2017 21:51:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[19-Mar-2017 21:51:47 UTC] PHP   2. trigger_error() /home/ubuntu/workspace/example-app/webroot/index.php:107
+[20-Mar-2017 07:38:39 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/example-app/View/Posts/index.ctp on line 4
+[20-Mar-2017 07:38:39 UTC] PHP Stack trace:
+[20-Mar-2017 07:38:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 07:38:39 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:120
+[20-Mar-2017 07:38:39 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 07:38:39 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:200
+[20-Mar-2017 07:38:39 UTC] PHP   5. View->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:963
+[20-Mar-2017 07:38:39 UTC] PHP   6. View->_render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:473
+[20-Mar-2017 07:38:39 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:933
+[20-Mar-2017 07:38:48 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/example-app/View/Posts/index.ctp on line 4
+[20-Mar-2017 07:38:48 UTC] PHP Stack trace:
+[20-Mar-2017 07:38:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 07:38:48 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:120
+[20-Mar-2017 07:38:48 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 07:38:48 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:200
+[20-Mar-2017 07:38:48 UTC] PHP   5. View->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:963
+[20-Mar-2017 07:38:48 UTC] PHP   6. View->_render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:473
+[20-Mar-2017 07:38:48 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:933
+[20-Mar-2017 08:00:23 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/example-app/Controller/PostsController.php on line 48
+[20-Mar-2017 08:00:23 UTC] PHP Stack trace:
+[20-Mar-2017 08:00:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:00:23 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:00:23 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 08:00:23 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 08:00:23 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:00:23 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:00:23 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:00:25 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/example-app/Controller/PostsController.php on line 48
+[20-Mar-2017 08:00:25 UTC] PHP Stack trace:
+[20-Mar-2017 08:00:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:00:25 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:00:25 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 08:00:25 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 08:00:25 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:00:25 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:00:25 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:39 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/example-app/Controller/PostsController.php on line 47
+[20-Mar-2017 08:02:39 UTC] PHP Stack trace:
+[20-Mar-2017 08:02:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:02:39 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:02:39 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 08:02:39 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 08:02:39 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:39 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:39 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:43 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/example-app/Controller/PostsController.php on line 47
+[20-Mar-2017 08:02:43 UTC] PHP Stack trace:
+[20-Mar-2017 08:02:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:02:43 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:02:43 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 08:02:43 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 08:02:43 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:43 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:02:43 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:03:29 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) in /home/ubuntu/workspace/example-app/Controller/PostsController.php on line 44
+[20-Mar-2017 08:03:29 UTC] PHP Stack trace:
+[20-Mar-2017 08:03:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:03:29 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:03:29 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 08:03:29 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 08:03:29 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:03:29 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:03:29 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 08:09:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/example-app/View/Posts/index.ctp on line 28
+[20-Mar-2017 08:09:23 UTC] PHP Stack trace:
+[20-Mar-2017 08:09:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 08:09:23 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 08:09:23 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 08:09:23 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:200
+[20-Mar-2017 08:09:23 UTC] PHP   5. View->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:963
+[20-Mar-2017 08:09:23 UTC] PHP   6. View->_render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:473
+[20-Mar-2017 08:09:23 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:933
