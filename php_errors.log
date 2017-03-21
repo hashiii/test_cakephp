@@ -180,3 +180,99 @@
 [20-Mar-2017 08:09:23 UTC] PHP   5. View->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:963
 [20-Mar-2017 08:09:23 UTC] PHP   6. View->_render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:473
 [20-Mar-2017 08:09:23 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:933
+[20-Mar-2017 20:34:43 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/example-app/Controller/UserController.php on line 45
+[20-Mar-2017 20:34:43 UTC] PHP Stack trace:
+[20-Mar-2017 20:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:34:43 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:34:43 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 20:34:43 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 20:34:43 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:34:43 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:34:43 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:03 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/example-app/Controller/UserController.php on line 59
+[20-Mar-2017 20:35:03 UTC] PHP Stack trace:
+[20-Mar-2017 20:35:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:35:03 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:35:03 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 20:35:03 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 20:35:03 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:03 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:03 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:06 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/example-app/Controller/UserController.php on line 59
+[20-Mar-2017 20:35:06 UTC] PHP Stack trace:
+[20-Mar-2017 20:35:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:35:06 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:35:06 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 20:35:06 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 20:35:06 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:06 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:35:06 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:36:27 UTC] PHP Fatal error:  Call to undefined function uses() in /home/ubuntu/workspace/example-app/Controller/UserController.php on line 3
+[20-Mar-2017 20:36:27 UTC] PHP Stack trace:
+[20-Mar-2017 20:36:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:36:27 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:36:27 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 20:36:27 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 20:36:27 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:36:27 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:36:27 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:36:27 UTC] PHP   8. include() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php:567
+[20-Mar-2017 20:38:50 UTC] PHP Fatal error:  Call to undefined function uses() in /home/ubuntu/workspace/example-app/Controller/UsersController.php on line 3
+[20-Mar-2017 20:38:50 UTC] PHP Stack trace:
+[20-Mar-2017 20:38:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:38:50 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:38:50 UTC] PHP   3. Dispatcher->_getController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:158
+[20-Mar-2017 20:38:50 UTC] PHP   4. Dispatcher->_loadController() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:235
+[20-Mar-2017 20:38:50 UTC] PHP   5. class_exists() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:38:50 UTC] PHP   6. spl_autoload_call() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:38:50 UTC] PHP   7. App::load() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:266
+[20-Mar-2017 20:38:50 UTC] PHP   8. include() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php:567
+[20-Mar-2017 20:42:20 UTC] PHP Fatal error:  Call to undefined function create() in /home/ubuntu/workspace/example-app/View/Users/add.ctp on line 2
+[20-Mar-2017 20:42:20 UTC] PHP Stack trace:
+[20-Mar-2017 20:42:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 20:42:20 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 20:42:20 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 20:42:20 UTC] PHP   4. Controller->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:200
+[20-Mar-2017 20:42:20 UTC] PHP   5. View->render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:963
+[20-Mar-2017 20:42:20 UTC] PHP   6. View->_render() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:473
+[20-Mar-2017 20:42:20 UTC] PHP   7. View->_evaluate() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:933
+[20-Mar-2017 20:42:20 UTC] PHP   8. include() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php:971
+[20-Mar-2017 21:30:26 UTC] PHP Fatal error:  Class 'BlowfishPasswordHasher' not found in /home/ubuntu/workspace/example-app/Model/User.php on line 8
+[20-Mar-2017 21:30:26 UTC] PHP Stack trace:
+[20-Mar-2017 21:30:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 21:30:26 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 21:30:26 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 21:30:26 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[20-Mar-2017 21:30:26 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:30:26 UTC] PHP   6. UsersController->add() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:30:26 UTC] PHP   7. Model->save() /home/ubuntu/workspace/example-app/Controller/UsersController.php:44
+[20-Mar-2017 21:30:26 UTC] PHP   8. Model->_doSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1758
+[20-Mar-2017 21:30:26 UTC] PHP   9. CakeEventManager->dispatch() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1871
+[20-Mar-2017 21:30:26 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241}() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241
+[20-Mar-2017 21:30:26 UTC] PHP  11. User->beforeSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241
+[20-Mar-2017 21:40:15 UTC] PHP Fatal error:  Class 'BlowfishPasswordHasher' not found in /home/ubuntu/workspace/example-app/Model/User.php on line 8
+[20-Mar-2017 21:40:15 UTC] PHP Stack trace:
+[20-Mar-2017 21:40:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 21:40:15 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 21:40:15 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 21:40:15 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[20-Mar-2017 21:40:15 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:40:15 UTC] PHP   6. UsersController->add() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:40:15 UTC] PHP   7. Model->save() /home/ubuntu/workspace/example-app/Controller/UsersController.php:44
+[20-Mar-2017 21:40:15 UTC] PHP   8. Model->_doSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1758
+[20-Mar-2017 21:40:15 UTC] PHP   9. CakeEventManager->dispatch() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1871
+[20-Mar-2017 21:40:15 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241}() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241
+[20-Mar-2017 21:40:15 UTC] PHP  11. User->beforeSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241
+[20-Mar-2017 21:44:24 UTC] PHP Fatal error:  Class 'BlowfishPasswordHasher' not found in /home/ubuntu/workspace/example-app/Model/User.php on line 8
+[20-Mar-2017 21:44:24 UTC] PHP Stack trace:
+[20-Mar-2017 21:44:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/example-app/webroot/index.php:0
+[20-Mar-2017 21:44:24 UTC] PHP   2. Dispatcher->dispatch() /home/ubuntu/workspace/example-app/webroot/index.php:118
+[20-Mar-2017 21:44:24 UTC] PHP   3. Dispatcher->_invoke() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:167
+[20-Mar-2017 21:44:24 UTC] PHP   4. Controller->invokeAction() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php:193
+[20-Mar-2017 21:44:24 UTC] PHP   5. ReflectionMethod->invokeArgs() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:44:24 UTC] PHP   6. UsersController->add() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php:491
+[20-Mar-2017 21:44:24 UTC] PHP   7. Model->save() /home/ubuntu/workspace/example-app/Controller/UsersController.php:44
+[20-Mar-2017 21:44:24 UTC] PHP   8. Model->_doSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1758
+[20-Mar-2017 21:44:24 UTC] PHP   9. CakeEventManager->dispatch() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Model/Model.php:1871
+[20-Mar-2017 21:44:24 UTC] PHP  10. call_user_func_array:{/home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241}() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241
+[20-Mar-2017 21:44:24 UTC] PHP  11. User->beforeSave() /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Event/CakeEventManager.php:241

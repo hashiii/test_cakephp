@@ -8,6 +8,7 @@ class PostsController extends AppController{
     public function index(){
         //set?ビューにセットするっつーことです
         $this->set('posts',$this->Post->find('all'));
+         echo "welcome to" . $this->Auth->user('id');
     }
     
     public function view($id = null){
@@ -25,6 +26,8 @@ class PostsController extends AppController{
         if($this->request->is('post')){
             //モデルの状況をリセット
             $this -> Post->create();
+            //認証者の情報
+            $this->request->data['Post']['user_id'] = $this->Auth->user('id');
             //requstの中にリクエストされたものが入ってる
             if($this->Post->save($this->request->data)){
                 $this->Flash->success(__('Your post has been saved'));

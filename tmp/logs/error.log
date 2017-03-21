@@ -278,3 +278,278 @@ Stack Trace:
 #3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
 #4 [internal function]: App::shutdown()
 #5 {main}
+2017-03-20 20:34:43 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/ubuntu/workspace/example-app/Controller/UserController.php, line 45]
+2017-03-20 20:34:43 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /example-app/User
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 45, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 45, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:35:03 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/ubuntu/workspace/example-app/Controller/UserController.php, line 59]
+2017-03-20 20:35:03 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /example-app/User
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 59, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 59, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:35:06 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/home/ubuntu/workspace/example-app/Controller/UserController.php, line 59]
+2017-03-20 20:35:06 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+Request URL: /example-app/User
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/ubuntu/wo...', 59)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/ubuntu/wo...', 59, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/ubuntu/wo...', 59, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:36:27 Error: Fatal Error (1): Call to undefined function uses() in [/home/ubuntu/workspace/example-app/Controller/UserController.php, line 3]
+2017-03-20 20:36:27 Error: [FatalErrorException] Call to undefined function uses()
+Request URL: /example-app/User
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 3, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 3, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:36:51 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /example-app/Users
+Stack Trace:
+#0 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-20 20:37:44 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /example-app/Users
+Stack Trace:
+#0 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-20 20:37:55 Error: [MissingControllerException] Controller class PostController could not be found.
+Exception Attributes: array (
+  'class' => 'PostController',
+  'plugin' => NULL,
+)
+Request URL: /example-app/Post
+Stack Trace:
+#0 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-20 20:38:04 Error: [MissingControllerException] Controller class UsersController could not be found.
+Exception Attributes: array (
+  'class' => 'UsersController',
+  'plugin' => NULL,
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-20 20:38:50 Error: Fatal Error (1): Call to undefined function uses() in [/home/ubuntu/workspace/example-app/Controller/UsersController.php, line 3]
+2017-03-20 20:38:50 Error: [FatalErrorException] Call to undefined function uses()
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 3)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 3, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 3, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:41:16 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-20 20:42:20 Error: Fatal Error (1): Call to undefined function create() in [/home/ubuntu/workspace/example-app/View/Users/add.ctp, line 2]
+2017-03-20 20:42:20 Error: [FatalErrorException] Call to undefined function create()
+Request URL: /example-app/users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/home/ubuntu/wo...', 2)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/home/ubuntu/wo...', 2, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/home/ubuntu/wo...', 2, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 20:51:13 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /example-app/users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-20 20:55:42 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /example-app/users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-20 20:56:27 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /example-app/users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-20 20:57:12 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /example-app/users/login
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->invokeAction(Object(CakeRequest))
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2017-03-20 21:30:26 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/home/ubuntu/workspace/example-app/Model/User.php, line 8]
+2017-03-20 21:30:26 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /example-app/users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 21:40:15 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/home/ubuntu/workspace/example-app/Model/User.php, line 8]
+2017-03-20 21:40:15 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /example-app/users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 21:44:24 Error: Fatal Error (1): Class 'BlowfishPasswordHasher' not found in [/home/ubuntu/workspace/example-app/Model/User.php, line 8]
+2017-03-20 21:44:24 Error: [FatalErrorException] Class 'BlowfishPasswordHasher' not found
+Request URL: /example-app/users/add
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Error/ErrorHandler.php(212): ErrorHandler::handleFatalError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(970): call_user_func('ErrorHandler::h...', 1, 'Class 'Blowfish...', '/home/ubuntu/wo...', 8, Array)
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Core/App.php(943): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2017-03-20 21:44:43 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-20 21:46:06 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-20 21:46:13 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-20 22:04:41 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users/
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-20 22:09:04 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-21 14:01:12 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users/
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2017-03-21 14:42:12 Error: [MissingControllerException] Controller class AddController could not be found.
+Exception Attributes: array (
+  'class' => 'AddController',
+  'plugin' => NULL,
+)
+Request URL: /example-app/add
+Stack Trace:
+#0 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2017-03-21 14:43:55 Error: [MissingViewException] View file "Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Users/index.ctp',
+)
+Request URL: /example-app/users/
+Stack Trace:
+#0 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/View/View.php(470): View->_getViewFileName(NULL)
+#1 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Controller/Controller.php(963): View->render(NULL, NULL)
+#2 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(200): Controller->render()
+#3 /home/ubuntu/workspace/Vendor/cakephp/cakephp/lib/Cake/Routing/Dispatcher.php(167): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/ubuntu/workspace/example-app/webroot/index.php(118): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
